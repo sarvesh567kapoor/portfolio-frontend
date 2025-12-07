@@ -1,0 +1,9 @@
+/node_modules
+/build
+.env
+.env.*
+.yarn
+.npm
+.DS_Store
+.idea
+.vscode
