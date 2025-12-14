@@ -92,6 +92,44 @@ const ContactFormPage = () => {
                 <li>React dashboards, admin panels and custom integrations.</li>
                 <li>Bug fixing, refactors and performance improvements.</li>
               </ul>
+
+              {/* Direct contact details */}
+              <div style={{ marginTop: '1.1rem', fontSize: '0.9rem', color: '#9ca3af' }}>
+                <p style={{ marginBottom: '0.4rem' }}>
+                  Prefer to reach out directly?
+                </p>
+                <ul style={{ paddingLeft: '1.15rem', margin: 0 }}>
+                  <li>
+                    <strong>Email:</strong>{' '}
+                    <a
+                      href="mailto:sarveshkap49@gmail.com"
+                      style={{ color: 'rgb(96, 165, 250)' }}
+                    >
+                      sarveshkap49@gmail.com
+                    </a>
+                  </li>
+                  <li>
+                    <strong>Phone:</strong>{' '}
+                    <a
+                      href="tel:+918171846516"
+                      style={{ color: 'rgb(96, 165, 250)' }}
+                    >
+                      +91 81718 46516
+                    </a>
+                  </li>
+                  <li>
+                    <strong>LinkedIn:</strong>{' '}
+                    <a
+                      href="https://www.linkedin.com/in/sarveshkapoor49"
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ color: 'rgb(96, 165, 250)' }}
+                    >
+                      View profile
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
 
             {/* Right form card */}
